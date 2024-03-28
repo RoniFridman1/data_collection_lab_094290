@@ -19,7 +19,7 @@ Our feature extraction pipeline incorporates several cutting-edge NLP processes:
 - **Text Embeddings:** Converts text to embeddings using the compact but powerful Little BERT model.
 - **K-Means Clustering:** Applies K-Means clustering with k=5 to the embeddings, incorporating the cluster group as an additional feature for analysis.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/model.png?raw=true)
 
 _Please insert an appropriate visualization of the model or data processing pipeline here._
 
