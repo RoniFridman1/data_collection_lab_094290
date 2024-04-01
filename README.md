@@ -45,17 +45,3 @@ Execute the main script to start analyzing LinkedIn posts:
 
 We welcome contributions from the community. If you're interested in enhancing the LinkedIn Post Analyzer, feel free to fork the repository, make your changes, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-## Acknowledgments
-
-- This project was made possible thanks to the extensive dataset provided by LinkedIn and the guidance of our university course instructors.
-- Special thanks to all team members who contributed to the development and success of this project.
-
-## Contact
-
-For any queries or further discussions, feel free to contact the project team through the repository's issue tracker.
-
-_We hope you find the LinkedIn Post Analyzer both useful and enlightening in understanding the dynamics of successful LinkedIn posts!_
