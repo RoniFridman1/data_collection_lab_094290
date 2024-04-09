@@ -4,14 +4,12 @@ from transformers import AutoTokenizer, AutoModel
 import pandas as pd
 from sklearn.cluster import KMeans
 from gensim import corpora, models
+from scipy.linalg import triu
 import pickle
-import matplotlib.pyplot as plt
-import seaborn as sns
 import textstat
 import re
 import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from nltk.corpus import stopwords
 from nltk import pos_tag, word_tokenize
 
 nltk.download('punkt')
@@ -509,11 +507,9 @@ def preprocess(posts_df, train_flag=False):
     process_in_batches(posts_df['headline'].tolist(), 1000, 'headline_embeddings', model, tokenizer, posts_df)
 
     # industryName
-    posts_df['industryName'] = posts_df['industryName'].map(meta_industries_12).fillna(posts_df['industryName'])
-    # Update the meta_industries_12 dictionary with the additional mappings
-    meta_industries_12.update(additional_mapping)
-    # Apply the updated mapping to the industryName column
-    posts_df['industryName'] = posts_df['industryName'].map(meta_industries_12).fillna(posts_df['industryName'])
+    combined_mapping = {**meta_industries_12, **additional_mapping}
+    # Apply the mapping to the industryName column and set to 'Other' if there is no mapping found
+    posts_df['industryName'] = posts_df['industryName'].map(combined_mapping).fillna('Other')
 
     # geoLocationName
     # The 'geoLocationName' column has the format "City, Country"
