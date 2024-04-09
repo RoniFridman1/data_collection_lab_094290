@@ -38,10 +38,14 @@ pip install -r requirements.txt
 Ensure you have valid LinkedIn API credentials and update the `config.py` file with your credentials.
 
 4. **Running the Application:**
-  4.1 First connect to your LinkedIn user in a browser in the background
-  4.2 Upded the api_key to yours in `lab_gui.py` in line 14.
-  4.3 Run the following command in the terminal: streamlit run lab_gui.py
-  4.4 After registering in the interface, confirm the verification email you receive
+    - 4.1 First, connect to your LinkedIn user in a browser in the background.
+    - 4.2 Update the `api_key` to yours in `lab_gui.py` on line 14.
+    - 4.3 Run the following command in the terminal:
+      ```
+      streamlit run lab_gui.py
+      ```
+    - 4.4 After registering in the interface, confirm the verification email you receive.
+
 
 
 ## Contributing
