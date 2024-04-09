@@ -21,7 +21,6 @@ Our feature extraction pipeline incorporates several cutting-edge NLP processes:
 
 ![alt text](https://github.com/RoniFridman1/data_collection_lab_094290/blob/main/lab_in_data_collection_model.png?raw=true)
 
-_Please insert an appropriate visualization of the model or data processing pipeline here._
 
 ## Getting Started
 
@@ -45,7 +44,8 @@ pip install -r requirements.txt
       streamlit run lab_gui.py
       ```
     - 4.4 After registering in the interface, confirm the verification email you receive.
-
+      
+![alt text](https://github.com/RoniFridman1/data_collection_lab_094290/blob/main/GUI.png?raw=true)
 
 ## Contributing
 
