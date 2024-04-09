@@ -1,0 +1,17 @@
+numpy
+pandas
+torch==2.1.2
+transformers
+textstat
+gensim==4.3.2
+nltk
+streamlit-lottie 
+streamlit 
+requests 
+openai 
+linkedin-api 
+regex
+jsonschema 
+scikit-learn 
+textstat
+scipy==1.12.0
