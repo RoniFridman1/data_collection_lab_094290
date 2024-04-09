@@ -478,7 +478,7 @@ def apply_clustering(df, embeddings_column='post_embeddings', n_clusters=10):
     return df
 
 
-def preprocess(posts_df):
+def preprocess(posts_df, train_flag=False):
     # posts_df = apply_decision_rule(posts_df)
 
     # Apply the function to each text entry
@@ -491,8 +491,9 @@ def preprocess(posts_df):
     posts_df = posts_df[posts_df['short_sentence'] >= 4].drop('short_sentence', axis=1)
 
     # Only relevant records
-    posts_df = posts_df[posts_df['prediction'] == 'Other Topics']
-    posts_df = posts_df.drop(['prediction', 'Unnamed: 13', 'Unnamed: 0'], axis=1)
+    if train_flag:
+      posts_df = posts_df[posts_df['prediction'] == 'Other Topics']
+      posts_df = posts_df.drop(['prediction', 'Unnamed: 13', 'Unnamed: 0'], axis=1)
 
     # Missing
     posts_df['geoLocationName'] = posts_df['geoLocationName'].fillna('Other')
