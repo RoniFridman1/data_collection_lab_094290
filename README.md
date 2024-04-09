@@ -23,6 +23,7 @@ Our feature extraction pipeline incorporates several cutting-edge NLP processes:
 
 
 ## Getting Started
+Initially, we'd like to point out that within the collab notebook, all our code is accompanied by comprehensive explanations detailing every step we've undertaken.
 
 To get started with the LinkedIn Post Analyzer, follow these steps:
 
