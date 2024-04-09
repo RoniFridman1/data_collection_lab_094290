@@ -34,8 +34,8 @@ git clone https://github.com/your-repo/linkedin-post-analyzer.git
 Navigate to the project directory and install the required dependencies:
 pip install -r requirements.txt
 
-3. **Setup LinkedIn API Credentials:**
-Ensure you have valid LinkedIn API credentials and update the `config.py` file with your credentials.
+3. **Running the model:**
+    - In order to run the model, you cab run the file `main.py` and if you want to change the model type, you can do it in the `model_name` field.
 
 4. **Running the Application:**
     - 4.1 First, connect to your LinkedIn user in a browser in the background.
