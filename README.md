@@ -9,11 +9,14 @@
     
 </p>
 
-Welcome to the LinkedIn Post Analyzer, an innovative Python application developed as part of a university course assignment. This application is designed to evaluate the attractiveness of LinkedIn posts using advanced Natural Language Processing (NLP) and machine learning techniques. By analyzing posts based on various parameters, our app provides valuable insights into what makes a LinkedIn post successful.
+
+**Welcome to the LinkedIn Post Analyzer!**</p>
+an innovative Python application developed as part of a university course assignment. This application is designed to evaluate the attractiveness of LinkedIn posts using advanced Natural Language Processing (NLP) and machine learning techniques. By analyzing posts based on various parameters, our app provides valuable insights into what makes a LinkedIn post successful.
 
 ## Project Overview
 
-Our dataset comprises 1.5 million LinkedIn users, specifically filtered to include only those in the data field who have made some posts or have a significant number of followers. Utilizing a custom-built `LinkedinAPI` class, we automated the process of scraping LinkedIn posts, adhering to a maximum of 10 posts per user, which resulted in a comprehensive collection of 9,000 posts. Each record includes detailed information about both the post and its author.
+Our dataset comprises 1.5 million LinkedIn users, specifically filtered to include only those in the data field who have made some posts or have a significant number of followers.</p>
+Utilizing a custom-built `LinkedinAPI` class, we automated the process of scraping LinkedIn posts, adhering to a maximum of 10 posts per user, which resulted in a comprehensive collection of 9,000 posts. Each record includes detailed information about both the post and its author.
 
 The core functionality of our application revolves around a sophisticated pipeline that processes and analyzes post data to predict post attractiveness. This prediction is based on a supervised learning model that considers a linear combination of likes, comments, and shares as the target variable. Additionally, the app evaluates and reports on various aspects of the post, such as sentiment, text length, and keyword significance.
 
