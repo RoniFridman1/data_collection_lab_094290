@@ -25,7 +25,7 @@ The core functionality of our application revolves around a sophisticated pipeli
 Our feature extraction pipeline incorporates several cutting-edge NLP processes:
 
 - **Topic Classification:** Utilizes the Latent Dirichlet Allocation (LDA) algorithm for effective topic identification.
-- **Level of Language:** Assessment of the complexity and sophistication of the post's language (TBD).
+- **Level of Language:** Assessment of the complexity and sophistication of the post's language.
 - **Keyword Analysis:** Identification and evaluation of important keywords within the text.
 - **Mathematical Expression Detection:** Checks for the presence of mathematical expressions, leveraging LaTeX parsing.
 - **Text Embeddings:** Converts text to embeddings using the compact but powerful Little BERT model.
