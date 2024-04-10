@@ -1,7 +1,6 @@
 
-<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.5em"> (Ab)LinkedIn Post Analyzer<br> </h1>
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.5em"> LinkedIn Post Analyzer<br> </h1>
 <p align='center' style="text-align:center;font-size:1em;">
-    <a>Eugene Bagdasaryan</a>&nbsp;,&nbsp;
     <a>Shelly Serafimovich</a>&nbsp;,&nbsp;
     <a>Arik Ontman</a>&nbsp;,&nbsp;
     <a>Roni Fridman</a>&nbsp;
