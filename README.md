@@ -1,4 +1,14 @@
-# LinkedIn Post Analyzer
+
+<h1 align='center' style="text-align:center; font-weight:bold; font-size:2.5em"> (Ab)LinkedIn Post Analyzer<br> </h1>
+<p align='center' style="text-align:center;font-size:1em;">
+    <a>Eugene Bagdasaryan</a>&nbsp;,&nbsp;
+    <a>Shelly Serafimovich</a>&nbsp;,&nbsp;
+    <a>Arik Ontman</a>&nbsp;,&nbsp;
+    <a>Roni Fridman</a>&nbsp;
+    <br/> 
+    Technion - Israel Institute of Technology<br/> 
+    
+</p>
 
 Welcome to the LinkedIn Post Analyzer, an innovative Python application developed as part of a university course assignment. This application is designed to evaluate the attractiveness of LinkedIn posts using advanced Natural Language Processing (NLP) and machine learning techniques. By analyzing posts based on various parameters, our app provides valuable insights into what makes a LinkedIn post successful.
 
